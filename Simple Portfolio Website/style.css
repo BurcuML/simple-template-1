@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.glass{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+nav img{
+    width: 15%;
+}
+.container{
+    width: 1350px;
+    max-width: 95%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: #414042;
+    transition: 0.5s;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+button{
+    background-color: #414042;
+    display: inline-block;
+    padding: 15px 45px;
+    color: #fff;
+    border: 1px solid #414042;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 35px;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.content{
+    position: relative;
+    z-index: 3;
+    padding-top: 150px;
+    padding-left: 80px;
+}
+.content a{
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #414042;
+    border-radius: 3px;
+    background-color: #414042;
+    line-height: 2;
+    display: inline-block;
+    padding: 10px 35px;
+}
+.content a:hover{
+    background-color: transparent;
+    border: 1px solid #414042;
+    color: #414042;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 3px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.content h1{
+    font-size: 70px;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+.content p{
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-35%, -43%);
+    z-index: 1;
+}
+.mid img{
+    width: 70%;
+}
+.mid-2 img{
+    position: absolute;
+    top: 22%;
+    left: 60%;
+    width: 20%;
+}
+.mid-3 img{
+    position: absolute;
+    top: 35%;
+    left: 47%; 
+    transform: rotate(-110deg);
+    width: 20%;
+}
+.mid-4 img{
+    position: absolute;
+    top: 46%;
+    left: 60%;
+    width: 20%;
+    transform: rotate(70deg);
+}
